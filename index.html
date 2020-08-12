@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FK8.IR</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script type="module">
+        window.onload = () => {
+            let slider1 = new Range({
+                id: 'slider1',
+                range: {
+                    min: 0,
+                    max: 100
+                },
+                handles: [0, 100],
+                width: 300,
+                displayValues: true
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="slider1"></div>
+</body>
+</html>
